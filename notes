@@ -1,0 +1,15 @@
+ls -lha
+Permission directories:
+-rwxr-xr-x.
+	-1st section: user
+	-2nd section: group
+	-3rd section: other
+
+chmod g+w 'file-name' | chmod g=u 'file-name'
+-rwxrwxr-x.
+chmod g-w 'file-name'
+
+chmod g-w, u-x, o-rx 'file-name'
+
+chmod 644 'file-name'
+r=4 w=2 x=1
